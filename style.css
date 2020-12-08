@@ -68,17 +68,27 @@ p {
 }
 
 .menu{
-list-style: none;
+    background-color: white;
+    list-style: none;
     font-family: monospace;
-    position: absolute;
-    top: 10px;
-    right: 30px;
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
     z-index: 10;
     cursor: pointer;
 }
 
+a{
+text-decoration: none;
+    color: black;
+    text-shadow: 2px 2px gainsboro;
+}
+
 .link{
     float: left;
+    text-align: center;
+    display: inline
     color: blue;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -91,4 +101,20 @@ list-style: none;
 
 .link:hover{
     background-color: darkblue;
+}
+
+
+#contact iframe{
+width: 100%;    
+}
+
+
+#conatct{
+background-color: firebrick;
+}
+
+
+#contact_1{
+color: white;
+text-align: center;    
 }
